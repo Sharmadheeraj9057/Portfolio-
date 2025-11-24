@@ -4,25 +4,21 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
+  github,
   figma,
-  docker,
-  meta,
+  skillbit,
   starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  Farmer,
+  portfolio,
+  flutter,
+  Whatsapp,
 } from "../assets";
 
 export const navLinks = [
@@ -46,11 +42,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "UI/UX Designer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   {
@@ -65,24 +61,24 @@ const technologies = [
     icon: html,
   },
   {
+    name: "GitHub",
+    icon: github,
+  },
+  {
     name: "CSS 3",
     icon: css,
+  },
+  {
+    name: "Flutter",
+    icon: flutter,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -97,10 +93,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -108,63 +100,27 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "UI/UX Developer",
+    company_name: "WAAVEX",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2025 - Jun 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Offered the role of Graphic Design Intern at Waavex, focusing on gaining hands-on experience in the field of graphic design.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Frontend Developer",
+    company_name: "Skillbit Technologies",
+    icon: skillbit,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2025 - September 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "The company was impressed with your qualifications and passion for Front-End Development, anticipating a valuable contribution to their team.",
     ],
   },
 ];
@@ -198,67 +154,59 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Farmer Sakha",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Farmer Sakha is an innovative mobile application designed to digitize and streamline Contract Farming within the agriculture sector. The app's core objective is to establish a direct and transparent connection between Farmers and Buyers, effectively eliminating intermediaries.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "FireBase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Dart",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: Farmer,
+    //source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "What's App Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "WhatsApp Clone is a detailed UI/UX design exercise meticulously executed on Figma. The project's core objective was to replicate and master the platform's key features, demonstrating proficiency in mobile design architecture and component creation.",
     tags: [
       {
-        name: "react",
+        name: "Figma",
         color: "blue-text-gradient",
       },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Whatsapp,
+    //source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This website is my personal Developer Portfolio, designed to be an immersive and interactive experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "R3f",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    //source_code_link: "https://github.com/",
   },
 ];
 

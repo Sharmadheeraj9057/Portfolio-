@@ -47,11 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm Dheeraj Sharma, a dedicated Frontend Developer and UI/UX
+        Designer with a strong focus on building responsive, modern 
+        and visually appealing websites. I combine clean UI design 
+        with functional frontend development to deliver smooth, performance-driven user experiences.
+        I enjoy turning ideas into real products—pixel-perfect, fast, and user-centric.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
