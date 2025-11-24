@@ -22,7 +22,7 @@ import starbucks from "./company/starbucks.png";
 import skillbit from "./company/skillbit.png";
 
 import Farmer from "./Farmer.png";
-import Whatsapp from "./whatsapp.png";
+import Whatsapp from "./Whatsapp.png";
 import portfolio from "./portfolio.png";
 
 export {
